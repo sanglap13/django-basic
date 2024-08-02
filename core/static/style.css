@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f68a8a;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

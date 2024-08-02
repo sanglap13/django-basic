@@ -1,0 +1,13 @@
+{% extends "layout.html" %} {% block title %} Work Page{% endblock %}
+<!-- prettier-ignore -->
+{% block content %}
+<h1>This is the Work content</h1>
+<!-- prettier-ignore -->
+{% for work in works %}
+<div>
+  <a href="{% url 'workDetails' work.id %}">
+    <img src="{{work.image.url}}" alt="" />
+    <h3>{{work.name}}</h3>
+  </a>
+</div>
+{% endfor %} {% endblock %}
